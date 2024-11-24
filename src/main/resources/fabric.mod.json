@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "rolypolyplushies",
+	"version": "${version}",
+	"name": "Rolypoly Plushies",
+	"description": "Cute, new plushies to add as decor for your builds <3",
+	"authors": [
+		"Rolypoly"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/user/RolyPolyGoblinoli",
+		"sources": "https://github.com/ThinkAndWander/rolypoly-plushies"
+	},
+	"license": "CC0",
+	"icon": "assets/rolypolyplushies/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.rolypoly.rolypolyplushies.RolyPolyPlushies"
+		]
+	},
+	"mixins": [
+		"rolypolyplushies.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	}
+}
